@@ -52,7 +52,7 @@ import com.android.volley.toolbox.Volley
 {% endhighlight %}
 
 Then wah-la we have a response:
-![An http response](/assets/2020-11-10-SimpleGet/Response.png)
+![An http response](/static/assets/2020-11-10-SimpleGet/Response.png)
 
 Oh and also in case someone stops the activity you might want to add this code:
 {% highlight kotlin %}

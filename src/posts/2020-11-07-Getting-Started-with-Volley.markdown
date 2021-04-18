@@ -12,10 +12,10 @@ So without further ado, let's get started.
 For this article, I will be referencing the offical documentation: [https://developer.android.com/training/volley](https://developer.android.com/training/volley)
 
 My coding environment is Ubuntu 20 but you can use Windows or Mac if you like. First things first start up **android studio** and create a new Empty activity:
-![Empty Activity](/assets/2020-11-07-LearningVolley/EmptyActivity.png)
+![Empty Activity](/static/assets/2020-11-07-LearningVolley/EmptyActivity.png)
 
 Then I saved my project like this:
-![How I saved my project](/assets/2020-11-07-LearningVolley/LearningVolleySave.png)
+![How I saved my project](/static/assets/2020-11-07-LearningVolley/LearningVolleySave.png)
 
 To import volley as the official documentation says add the following lines to your build.gradle file.
 {% highlight kotlin %}
@@ -25,9 +25,9 @@ dependencies {
 }
 {% endhighlight %}
 This is all fine and dandy but they don't tell you which build.gradle file. Turns out it is the Module build.gradle. You can see it here:
-![The Build Gradle file](/assets/2020-11-07-LearningVolley/BuildGradle.png)
+![The Build Gradle file](/static/assets/2020-11-07-LearningVolley/BuildGradle.png)
 Or if you don't have that Gradle Scripts Tab with the little elephant you can find the gradle file in the app directory like this:
-![The Build Gradle file under the project tab](/assets/2020-11-07-LearningVolley/BuildGradle2.png)
+![The Build Gradle file under the project tab](/static/assets/2020-11-07-LearningVolley/BuildGradle2.png)
 
 Then simply paste the implementation into the build.gradle file and hit the sync now button.
 

@@ -76,7 +76,7 @@ Lastly verify your install with:
 $ nvidia-smi
 {% endhighlight %}
 
-![You will see something like this](/assets/2020-12-23-GPUs/nvidia-smi.png)
+![You will see something like this](/static/assets/2020-12-23-GPUs/nvidia-smi.png)
 
 Once you have CUDA installed properly you can test it out properly with docker. I followed [this](https://powersj.io/post/ubuntu-server-nvidia-cuda/) tutorial to get started. Basically you just create a Dockerfile. Something like this:
 {% highlight bash %}
