@@ -1,0 +1,4 @@
+img {
+    width: calc(100vw - 6rem);
+    max-width: 600px;
+}
